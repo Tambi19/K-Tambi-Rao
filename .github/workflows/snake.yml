@@ -11,11 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate Snake SVG
+      - name: Generate Dark Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Tambi19
           outputs: dist/snake.svg
+          color_snake: "#00FF00"        # Neon green snake
+          color_dots: "#1E1E1E"         # Dark grid
+          color_dots_visited: "#444444" # Slightly lighter visited dots
+          color_background: "#0D1117"   # GitHub dark background
 
       - name: Commit and push to output
         run: |
@@ -25,5 +29,5 @@ jobs:
           git checkout output || git checkout -b output
           mv dist/snake.svg snake.svg
           git add snake.svg
-          git commit -m "Update snake animation" || echo "No changes to commit"
+          git commit -m "Update dark snake animation" || echo "No changes to commit"
           git push origin output --force
