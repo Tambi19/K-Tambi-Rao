@@ -10,16 +10,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: Platane/snk@master
         with:
           github_user_name: Tambi19
           outputs: dist/snake.svg
 
-      - name: Push Snake Game to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-          keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout output || git checkout -b output
+          mv dist/snake.svg snake.svg
+          git add snake.svg
+          git commit -m "Generate snake animation" || echo "No changes to commit"
+          git push origin output --force
