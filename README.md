@@ -30,4 +30,6 @@
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/rao_tambi)
 
 [![Tambi's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Tambi19&theme=github)](https://github.com/Tambi19)
+[![trophy](https://github-profile-trophy.vercel.app/?username=Tambi19&theme=onedark)](https://github.com/Tambi19)
+
 
