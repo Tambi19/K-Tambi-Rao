@@ -32,7 +32,8 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=Tambi19&theme=onedark)](https://github.com/Tambi19)
 
 ## 🐍 Contribution 
-![Tambi19's Snake Game](https://github.com/Tambi19/Tambi19/blob/output/snake.svg)
+![Tambi19's Dark Snake Game](https://raw.githubusercontent.com/Tambi19/Tambi19/output/snake.svg)
+
 
 
 
