@@ -1,5 +1,5 @@
 # Hi there! 👋  
 I'm Tambi, a passionate developer!  
 
-![Banner](https://i.pinimg.com/1200x/bc/53/37/bc533708783c6ffc309da1e12cc5b798.jpg)  
+![Banner](https://cdn.dribbble.com/userupload/25942943/file/original-8fe8693f63fb7452f80a8008fb247eb6.gif)  
 
