@@ -1,5 +1,5 @@
   ![Banner](https://img.itch.zone/aW1nLzc1ODk0ODMuZ2lm/original/3NwpQG.gif)  
-![GitHub Streak](https://streak-stats.demolab.com?user=Tambi19&theme=radical)![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tambi19&layout=compact&theme=radical)
+![GitHub Streak](https://streak-stats.demolab.com?user=Tambi19&theme=radical&token=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)![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tambi19&layout=compact&theme=radical)
 # Hi there! 👋  
 # I'm Tambi Rao, a passionate developer!  
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
